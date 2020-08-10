@@ -23,7 +23,7 @@
         <div class="Collection"><em></em><a href="#">收藏我们</a></div>
         <div class="hd_top_manu clearfix">
             <ul class="clearfix">
-                <li class="hd_menu_tit zhuce" data-addclass="hd_menu_hover">欢迎光临本店！<a href="#" class="red">[请登录]</a> 新用户<a href="#" class="red">[免费注册]</a></li>
+                <li class="hd_menu_tit zhuce" data-addclass="hd_menu_hover">欢迎光临本店！<a href="login" class="red">[请登录]</a> 新用户<a href="register" class="red">[免费注册]</a></li>
                 <li class="hd_menu_tit" data-addclass="hd_menu_hover"><a href="#">我的订单</a></li>
                 <li class="hd_menu_tit" data-addclass="hd_menu_hover"> <a href="#">购物车(<b>0</b>)</a> </li>
                 <li class="hd_menu_tit" data-addclass="hd_menu_hover"><a href="#">联系我们</a></li>
