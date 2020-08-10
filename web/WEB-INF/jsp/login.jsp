@@ -31,7 +31,7 @@
             <div class="login-form">
                 <div class="login-name"><h1 class="name">用户登录</h1><span class="login_link"><a href="register"><b></b>用户注册</a></span></div>
                 <!--提示信息-->
-                <div class="Prompt">账号密码不能为空！ </div>
+                <div class="Prompt">${msg}</div>
                 <form action="user/login" method="post">
                     <div class="form clearfix">
                         <div class="item item-fore1">

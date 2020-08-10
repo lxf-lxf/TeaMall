@@ -8,14 +8,24 @@ import java.io.Serializable;
  */
 public class User implements Serializable {
     private int uid;
-    private String uname;
-    private String realname;
-    private char sex;
-    private String phone;
-    private String email;
-    private String password;
+    private String uname;//账户
+    private String realname;//真实姓名
+    private char sex;//性别
+    private String phone;//电话号码
+    private String email;//邮箱
+    private String password;//密码
+
+    private Member member; //会员表对象
 
     public User() {
+    }
+
+    public Member getMember() {
+        return member;
+    }
+
+    public void setMember(Member member) {
+        this.member = member;
     }
 
     public int getUid() {

@@ -52,24 +52,40 @@
                     </form>
                 </ul>
                 <ul>
-                    <form id="form1" name="form1" method="post" action="">
+                    <form method="post" action="user/register" onsubmit="sub()">
                         <div class="form clearfix">
-                            <div class="item"><label class="rgister-label">用&nbsp;&nbsp;户&nbsp;&nbsp;名：</label><input name="" type="text"  class="text" /><b>*</b></div>
-                            <div class="item"><label class="rgister-label" >密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</label><input name="" type="password"  class="text" p/><b>*</b></div>
-                            <div class="Password_qd"><ul><li class="r">弱</li><li class="z">中</li><li class="q">强</li></ul></div>
-                            <div class="item"><label class="rgister-label " >确认密码：</label><input name="" type="password"  class="text" /><b>*</b></div>
-                            <div class="item"><label class="rgister-label" >电子邮箱：</label><input name="" type="text"  class="text" /><b>*</b></div>
-
-                            <div class="item "><label  class="rgister-label ">验&nbsp;证&nbsp;码：</label><input name="" type="text"  class="Recommend_text" /></div>
+                            <div class="item">
+                                <label class="rgister-label">用&nbsp;&nbsp;户&nbsp;&nbsp;名：
+                                </label><input name="uname" type="text" class="text" id="uname" onkeyup="checkName()" /><b>*</b>
+                                <span id="nameSpan"></span>
+                            </div>
+                            <div class="item">
+                                <label class="rgister-label" >密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</label>
+                                <input name="password" type="password"  class="text" id="password" onkeyup="checkPwd()" /><b>*</b>
+                                <span id="pwdSpan"></span>
+                            </div>
+                            <div class="Password_qd">
+                                <ul><li class="r">弱</li><li class="z">中</li><li class="q">强</li></ul>
+                            </div>
+                            <div class="item">
+                                <label class="rgister-label " >确认密码：</label>
+                                <input name="repwd" type="password" class="text" id="repwd" onkeyup="checkRepwd()"/><b>*</b>
+                                <span id="repwdSpan"></span>
+                            </div>
+                            <div class="item">
+                                <label class="rgister-label" >电子邮箱：</label>
+                                <input name="email" type="text"  class="text" id="email" onmouseover="checkEmail()" /><b>*</b>
+                                <span id="emailSpan"></span>
+                            </div>
                             <div class="item-ifo">
-                                <input type="checkbox" class="checkbox left" checked="checked" id="readme" onclick="agreeonProtocol();">
+                                <input type="checkbox" class="checkbox left" id="checkbox" onclick="agreeonProtocol();">
                                 <label for="protocol" class="left">我已阅读并同意<a href="#" class="blue" id="protocol">《福际商城用户注册协议》</a></label>
                             </div>
                         </div>
                         <div class="rgister-btn">
-                            <a href="javascript:;" class="btn_rgister">注&nbsp;&nbsp;&nbsp;&nbsp;册</a>
+                            <input class="btn_rgister" type="submit" value="注&nbsp;&nbsp;&nbsp;&nbsp;册" id="btn_register"/>
                         </div>
-                        <div class="Note"><span class="login_link">已是会员<a href="login.html">请登录</a></span></div>
+                        <div class="Note"><span class="login_link">已是会员<a href="login">请登录</a></span></div>
                     </form>
                 </ul>
             </div>
@@ -83,6 +99,86 @@
     <p>Copyright©2014四川金祥保险销售有限公司.All Rights Reserved. </p>
     <p>川ICP备09150084号</p>
 </div>
+
+<script src="js/jquery.js"></script>
+<script>
+
+        function checkName(){
+            var unameFlag = false;
+            var nameLength = $("#uname").val().length;
+            if("" !== nameLength){
+                if(nameLength >= 10 || nameLength <= 4){
+                    $("#nameSpan").html("账号长度必须大于等于4小于等于10");
+                }else{
+                    $("#nameSpan").html("账号可以使用");
+                    unameFlag = true;
+                }
+            }else {
+                $("#nameSpan").html("账号长度不能为空");
+            }
+            return unameFlag;
+        }
+
+        function checkPwd(){
+            var password = false;
+            var pwdLength = $("#password").val().length;
+            if("" !== pwdLength){
+                if(pwdLength > 15 || pwdLength < 5){
+                    $("#pwdSpan").html("密码长度必须大于5位数小于15位数");
+                }else{
+                    $("#pwdSpan").html("密码可以使用");
+                    password = true;
+                }
+            }else {
+                $("#nameSpan").html("密码长度不能为空");
+            }
+            return password;
+        }
+
+        function checkRepwd(){
+            var repwdFlag = false;
+            var pwd = $("#password").val();
+            var repwd = $("#repwd").val();
+            if(pwd !== repwd){
+                $("#repwdSpan").html("俩次密码必须一致");
+            }else {
+                $("#repwdSpan").html("密码一致");
+                repwdFlag = true;
+            }
+            return repwdFlag;
+        }
+
+        function checkEmail(){
+            var emailFlag = false;
+            var value = $("#email").val();
+            var reg = new RegExp("^[a-z0-9A-Z]+[- | a-z0-9A-Z . _]+@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?\\.)+[a-z]{2,}$");
+            if(!reg.test(value)){
+                $("#emailSpan").html("邮箱不符合规则")
+            }else{
+                $("#emailSpan").html("邮箱可以使用");
+                emailFlag = true;
+            }
+            return emailFlag;
+        }
+
+
+        function clickBox() {
+            var checkBox = false;
+            var flag = $(this).is(':checked');
+            if(flag){
+                checkBox=false;
+            }
+            return checkBox;
+        }
+
+        function sub() {
+            if(checkName() && checkPwd() && repwd() && checkEmail && checkBox){
+                return true;
+            }else{
+                return false;
+            }
+        }
+</script>
 </body>
 </html>
 

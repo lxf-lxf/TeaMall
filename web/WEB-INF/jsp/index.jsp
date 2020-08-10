@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%
     String path = request.getContextPath();
     String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
@@ -23,7 +24,14 @@
         <div class="Collection"><em></em><a href="#">收藏我们</a></div>
         <div class="hd_top_manu clearfix">
             <ul class="clearfix">
-                <li class="hd_menu_tit zhuce" data-addclass="hd_menu_hover">欢迎光临本店！<a href="login" class="red">[请登录]</a> 新用户<a href="register" class="red">[免费注册]</a></li>
+                <li class="hd_menu_tit zhuce" data-addclass="hd_menu_hover">欢迎光临本店！
+                <c:if test="${user == null}">
+                    <a href="login" class="red">[请登录]</a> 新用户<a href="register" class="red">[免费注册]</a>
+                </c:if>
+                <c:if test="${user!=null}">
+                    <a href="login" class="red">${user.realname}</a><a href="user/logout" class="black">退出登录</a>
+                </c:if>
+                </li>
                 <li class="hd_menu_tit" data-addclass="hd_menu_hover"><a href="#">我的订单</a></li>
                 <li class="hd_menu_tit" data-addclass="hd_menu_hover"> <a href="#">购物车(<b>0</b>)</a> </li>
                 <li class="hd_menu_tit" data-addclass="hd_menu_hover"><a href="#">联系我们</a></li>

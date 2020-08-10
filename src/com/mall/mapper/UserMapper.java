@@ -1,6 +1,7 @@
 package com.mall.mapper;
 
 import com.mall.entity.User;
+import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
 
@@ -10,6 +11,20 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface UserMapper {
+    /**
+     * 用户登录
+     * @param uname 账户
+     * @param password 密码
+     * @return 封装user
+     */
     @Select("select * from user_ where uname = #{param1} and password = #{param2}")
     User login(String uname,String password);
+
+    /**
+     * 用户注册
+     * @param user 用户对象
+     * @return 封装user
+     */
+    @Insert("insert into user_(uname,password,email,mid) values(#{uname},#{password},#{email},'1')")
+    int register(User user);
 }

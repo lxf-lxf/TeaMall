@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="MySQL for 5.1 - lxf_NewPro@linxifan.icu" uuid="552d25d5-a29c-464a-9865-04e8880010c0">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://linxifan.icu:3306/lxf_NewPro</jdbc-url>
+    </data-source>
+  </component>
+</project>
