@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e45cd0a-6b09-432f-9c6d-3fa1a757877a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/TeaMall_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeaMall.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Group_buy.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Product_Detailed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Product_List.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/1-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Products/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Threelinkage/TreeDict.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Threelinkage/combobox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Threelinkage/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Threelinkage/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Threelinkage/event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Threelinkage/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Threelinkage/ieFix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Threelinkage/json-city.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Threelinkage/json-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Threelinkage/json-district.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Threelinkage/json-province.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Threelinkage/json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Threelinkage/kit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Threelinkage/linkage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Threelinkage/linkage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Threelinkage/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Threelinkage/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/Threelinkage/suggestselect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/User_Center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/big/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/big/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/big/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/big/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/big/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/big/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/big/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/css/Orders.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/css/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/css/show.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/AD-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/AD-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/AD-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/AD-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/AD-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/AD-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/Button_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/Complex_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/Filter_bg_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/Quantity_img_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/Service3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/Watermark_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/ad-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/ad-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/bg_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/bg_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/bg_star1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/button_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/cart_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/cart_step_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/cart_step_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/cart_step_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/confirm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/group_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/icon_img_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/icon_img_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/icon_img_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/icon_img_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/iconfont-jiantou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/iconfont-kuaidi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/iconfont-shijian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/iconfont-zhifuicon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/img_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/img_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/img_33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/indexhead_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/input-checked-hui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/input-checked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/input-unchecked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/label_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/line_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/logo_img_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/menu_on_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/menu_on_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/more_img_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/muan_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/news_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/nstep1_btn1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/nstep1_btn2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/people.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/pro_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/pwd-icons-new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/return_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/search.ele.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/settleup-nogoods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/slider-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/streak_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/title_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/title_img1_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/title_name_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/user_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/user_img_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/images/xf_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/js/common_js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/js/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/js/jquery-1.9.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/js/jquery.SuperSlide.2.1.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/js/jquery.min.1.8.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/js/jquery.qrcode.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/js/jquery.reveal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/js/jquery.sumoselect.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/js/jqzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/asm-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/cglib-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.fileupload-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.io-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-codec-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbcp2-2.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-httpclient-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-pool2-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.1.22.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/freemarker-2.3.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-annotations-2.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-core-2.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-databind-2.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javassist-3.17.1-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jsqlparser-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/junit-4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-3.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-spring-2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.48.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/ojdbc6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/pagehelper-5.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/poi-3.9-20121203.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-support-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/login.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/mid/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/mid/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/mid/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/mid/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/mid/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/mid/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/mid/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/registered.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/shopping_cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/small/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/small/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/small/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/small/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/small/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/small/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/small/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/user_Collect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/user_Password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/user_address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/user_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/user_integral.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Java\SSMCode\TeaMall\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ftD6aPdEMlCQnkJOHsOQiVdm1I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\SSMCode\TeaMall\web\WEB-INF\lib" />
+      <recent name="D:\Java\SSMCode\TeaMall\web\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="t9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="TeaMall:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/TeaMall" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_TeaMall" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60995" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="TeaMall:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e45cd0a-6b09-432f-9c6d-3fa1a757877a" name="Default Changelist" comment="" />
+      <created>1597028320436</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597028320436</updated>
+      <workItem from="1597028322909" duration="324000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597028398697">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1597028398697" />
+    <state x="526" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597028513298">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="526" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597028513298" />
+    <state x="385" y="7" key="CommitChangelistDialog2" timestamp="1597028487796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="385" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597028487796" />
+    <state x="549" y="157" key="FileChooserDialogImpl" timestamp="1597028459454">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="157" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597028459454" />
+    <state x="272" y="58" key="SettingsEditor" timestamp="1597028419906">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597028419906" />
+  </component>
+</project>
