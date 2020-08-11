@@ -20,11 +20,11 @@ public interface UserMapper {
     @Select("select * from user_ where uname = #{param1} and password = #{param2}")
     User login(String uname,String password);
 
-    /**
-     * 用户注册
-     * @param user 用户对象
-     * @return 封装user
-     */
+    //用户注册
     @Insert("insert into user_(uname,password,email,mid) values(#{uname},#{password},#{email},'1')")
     int register(User user);
+
+    //查询电话号码
+    @Select("select * from user_ where phone = #{param1}")
+    User selPhone(String phone);
 }

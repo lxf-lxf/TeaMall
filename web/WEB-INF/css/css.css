@@ -957,14 +957,15 @@ box-shadow: 0 0 2px 2px #F8F8F8;}
 .phone_verification{ 
 	display:block;
 	float:right;
-	height:36px; 
-	line-height:36px; 
+	height:36px;
+	margin-right: 140px;
+	line-height:26px;
 	text-align:center; 
-	width:120px;	
+	width:120px;
 	border-radius: 5px;
 	-moz-border-radius: 5px;      /* Gecko browsers */
 	-webkit-border-radius: 5px;   /* Webkit browsers */ 
-	background:#999; 
+	background:#ff3c00;
 	font-size:18px;
 	color:#fff;
 	cursor:pointer
