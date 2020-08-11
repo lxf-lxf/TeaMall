@@ -1,6 +1,9 @@
 package com.mall.controller;
 
+import com.mall.entity.Goods;
 import com.mall.entity.User;
+import com.mall.mapper.GoodsMapper;
+import com.mall.service.GoodsService;
 import com.mall.service.UserService;
 import com.mall.util.PhoneNumFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.List;
 
 /**
  * @author 孟宇
@@ -21,13 +25,16 @@ import java.io.IOException;
 public class UserController {
     @Autowired
     UserService userService;
-
+    @Autowired
+    private GoodsService goodsService;
     //用户登录
     @RequestMapping("/login")
     public String login(String uname, String password, HttpSession session, Model model){
         System.out.println(uname+"---"+password);
         User user = userService.login(uname, password);
-        if(user != null){
+        List<Goods> goods = goodsService.selAllGoods();
+        if(user != null && goods!=null){
+            model.addAttribute("goods",goods);
             session.setAttribute("user",user);
             return "/index";
         }else {

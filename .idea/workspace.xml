@@ -6,7 +6,272 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e45cd0a-6b09-432f-9c6d-3fa1a757877a" name="Default Changelist" comment="" />
+    <list default="true" id="2e45cd0a-6b09-432f-9c6d-3fa1a757877a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Group_buy.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Orders.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/1-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Products/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Threelinkage/TreeDict.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Threelinkage/combobox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Threelinkage/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Threelinkage/dom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Threelinkage/event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Threelinkage/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Threelinkage/ieFix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Threelinkage/json-city.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Threelinkage/json-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Threelinkage/json-district.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Threelinkage/json-province.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Threelinkage/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Threelinkage/kit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Threelinkage/linkage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Threelinkage/linkage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Threelinkage/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Threelinkage/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/Threelinkage/suggestselect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/User_Center.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/big/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/big/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/big/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/big/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/big/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/big/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/big/07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/applicationContext-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/applicationContext-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/controller/GoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/controller/PageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/entity/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/entity/Size.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/entity/Stock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/mapper/GoodsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/mapper/GoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/mapper/SizeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/mapper/StockMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/service/GoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/service/SizeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/service/StockService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/service/impl/GoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/service/impl/SizeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/service/impl/StockServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/com/mall/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/classes/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/css/Orders.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/css/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/css/show.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/AD-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/AD-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/AD-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/AD-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/AD-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/AD-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/Button_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/Complex_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/Filter_bg_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/Quantity_img_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/Service3-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/Watermark_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/ad-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/ad-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/bg_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/bg_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/bg_star1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/button_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/cart_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/cart_step_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/cart_step_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/cart_step_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/confirm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/group_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/icon_img_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/icon_img_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/icon_img_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/icon_img_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/iconfont-jiantou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/iconfont-kuaidi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/iconfont-shijian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/iconfont-zhifuicon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/img_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/img_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/img_33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/indexhead_sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/input-checked-hui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/input-checked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/input-unchecked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/label_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/line_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/logo_img_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/menu_on_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/menu_on_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/more_img_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/muan_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/news_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/nstep1_btn1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/nstep1_btn2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/people.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/pro_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/pwd-icons-new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/return_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/search.ele.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/settleup-nogoods.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/slider-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/streak_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/title_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/title_img1_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/title_name_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/user_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/user_img_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/images/xf_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/js/common_js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/js/footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/js/jquery-1.9.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/js/jquery-3.5.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/js/jquery.SuperSlide.2.1.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/js/jquery.min.1.8.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/js/jquery.qrcode.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/js/jquery.reveal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/js/jquery.sumoselect.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/js/jqzoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/jsp/Product_Detailed.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/jsp/Product_List.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/jsp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/jsp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/jsp/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/asm-3.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/c3p0-0.9.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/cglib-2.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/com.springsource.org.apache.commons.fileupload-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/com.springsource.org.apache.commons.io-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/commons-codec-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/commons-dbcp2-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/commons-httpclient-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/commons-pool2-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/druid-1.1.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/freemarker-2.3.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/jackson-annotations-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/jackson-core-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/jackson-databind-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/javassist-3.17.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/jsqlparser-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/jstl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/junit-4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/mchange-commons-java-0.2.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/mybatis-3.5.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/mybatis-spring-2.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.48.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/ojdbc6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/pagehelper-5.1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/poi-3.9-20121203.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/servlet-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/spring-aspects-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/spring-beans-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/spring-context-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/spring-context-support-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/spring-core-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/spring-jdbc-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/spring-tx-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/spring-web-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/spring-webmvc-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/lib/standard.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/mid/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/mid/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/mid/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/mid/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/mid/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/mid/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/mid/07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/shopping_cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/small/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/small/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/small/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/small/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/small/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/small/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/small/07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/user_Collect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/user_Password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/user_address.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/user_info.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/user_integral.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TeaMall_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/applicationContext-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/applicationContext-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/controller/GoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/controller/PageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/entity/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/entity/Size.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/entity/Stock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/mapper/GoodsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/mapper/GoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/mapper/SizeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/mapper/StockMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/service/GoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/service/SizeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/service/StockService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/service/impl/GoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/service/impl/SizeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/service/impl/StockServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/com/mall/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeaMall/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mall/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mall/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mall/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mall/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mall/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mall/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mall/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mall/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Product_List.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/Product_List.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +461,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -276,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597128500095</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="my_version_1.0&#10;my_version_1.1&#10;my_version_1.2&#10;my_注册&amp;登录&#10;fgf_首页商品展示">
+      <created>1597128744802</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597128744802</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,14 +619,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597028513298" />
-    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1597116514952">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1597116514952" />
-    <state x="342" y="0" key="CommitChangelistDialog2" timestamp="1597128495868">
+    <state x="510" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1597130257934">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="342" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1597128495868" />
+    <state x="510" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1597130257934" />
+    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1597116514952" />
+    <state x="342" y="0" key="CommitChangelistDialog2" timestamp="1597128742429">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="342" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1597128742429" />
     <state x="385" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597128113342" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1597127604689">
       <screen x="0" y="0" width="1536" height="824" />
@@ -364,53 +637,65 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="157" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597028459454" />
-    <state width="1227" height="230" key="GridCell.Tab.0.bottom" timestamp="1597127420776">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="905" height="237" key="GridCell.Tab.0.bottom" timestamp="1597132595292">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="905" height="237" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597132595292" />
     <state width="1227" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597127420776" />
-    <state width="1227" height="230" key="GridCell.Tab.0.center" timestamp="1597127420776">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="905" height="237" key="GridCell.Tab.0.center" timestamp="1597132595292">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="905" height="237" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597132595292" />
     <state width="1227" height="230" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597127420776" />
-    <state width="1227" height="230" key="GridCell.Tab.0.left" timestamp="1597127420776">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="905" height="237" key="GridCell.Tab.0.left" timestamp="1597132595292">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="905" height="237" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597132595292" />
     <state width="1227" height="230" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597127420776" />
-    <state width="1227" height="230" key="GridCell.Tab.0.right" timestamp="1597127420776">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="905" height="237" key="GridCell.Tab.0.right" timestamp="1597132595292">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="905" height="237" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597132595292" />
     <state width="1227" height="230" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597127420776" />
-    <state width="1227" height="230" key="GridCell.Tab.1.bottom" timestamp="1597127420776">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="905" height="184" key="GridCell.Tab.1.bottom" timestamp="1597132366850">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="905" height="184" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597132366850" />
     <state width="1227" height="230" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597127420776" />
-    <state width="1227" height="230" key="GridCell.Tab.1.center" timestamp="1597127420776">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="905" height="184" key="GridCell.Tab.1.center" timestamp="1597132366850">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="905" height="184" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597132366850" />
     <state width="1227" height="230" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597127420776" />
-    <state width="1227" height="230" key="GridCell.Tab.1.left" timestamp="1597127420776">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="905" height="184" key="GridCell.Tab.1.left" timestamp="1597132366850">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="905" height="184" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597132366850" />
     <state width="1227" height="230" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597127420776" />
-    <state width="1227" height="230" key="GridCell.Tab.1.right" timestamp="1597127420776">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="905" height="184" key="GridCell.Tab.1.right" timestamp="1597132366850">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="905" height="184" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597132366850" />
     <state width="1227" height="230" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597127420776" />
-    <state width="1227" height="230" key="GridCell.Tab.2.bottom" timestamp="1597127420777">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="905" height="184" key="GridCell.Tab.2.bottom" timestamp="1597132366162">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="905" height="184" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597132366162" />
     <state width="1227" height="230" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597127420777" />
-    <state width="1227" height="230" key="GridCell.Tab.2.center" timestamp="1597127420776">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="905" height="184" key="GridCell.Tab.2.center" timestamp="1597132366162">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="905" height="184" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1597132366162" />
     <state width="1227" height="230" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1597127420776" />
-    <state width="1227" height="230" key="GridCell.Tab.2.left" timestamp="1597127420776">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="905" height="184" key="GridCell.Tab.2.left" timestamp="1597132366161">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="905" height="184" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1597132366161" />
     <state width="1227" height="230" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1597127420776" />
-    <state width="1227" height="230" key="GridCell.Tab.2.right" timestamp="1597127420776">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="905" height="184" key="GridCell.Tab.2.right" timestamp="1597132366162">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="905" height="184" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1597132366162" />
     <state width="1227" height="230" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1597127420776" />
     <state width="1227" height="230" key="GridCell.Tab.3.bottom" timestamp="1597127420777">
       <screen x="0" y="0" width="1536" height="824" />
@@ -444,13 +729,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1227" height="230" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1597127420777" />
-    <state x="272" y="58" key="SettingsEditor" timestamp="1597028419906">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="242" y="19" key="SettingsEditor" timestamp="1597129996892">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="242" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597129996892" />
     <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597028419906" />
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1597127374227">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="321" y="132" key="Vcs.Push.Dialog.v2" timestamp="1597128749996">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="321" y="132" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597128749996" />
     <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597127374227" />
     <state x="564" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597127604651">
       <screen x="0" y="0" width="1536" height="824" />

@@ -167,181 +167,56 @@
                 </div>
                 <div class="bd">
                     <ul>
+                        <c:forEach items="${goods}" var="good" varStatus="hx">
+                            <c:if test="${hx.index<=4}">
+                                <li class="s_Products">
+                                    <div class="Products_list_name">
+                                        <div class="img center"><a href="Product_Detailed.html"><img src="${good.photo}" /></a></div>
+                                        <div class="title_name"><a href="Product_Detailed.html">${good.gname}</a></div>
+                                        <div class="s_Price clearfix">
+                                            <span class="Current_price">商城价<em>￥${good.size.price}</em></span>
+                                            <span class="Original_Price">原价&nbsp;<em>￥${good.size.marketPrice}</em></span>
+                                        </div>
+                                        <div class="p_comment">已有<a href="#">2345</a>人评论</div>
+                                    </div>
+                                </li>
+                            </c:if>
+                        </c:forEach>
+                    </ul>
+                    <ul>
+                        <c:forEach items="${goods}" var="good" varStatus="hx">
+                            <c:if test="${hx.index>=5 and hx.index<=9}">
                         <li class="s_Products">
                             <div class="Products_list_name">
-                                <div class="img center"><a href="Product_Detailed.html"><img src="Products/2.jpg" /></a></div>
-                                <div class="title_name"><a href="Product_Detailed.html">【2015年新茶】巴山雀舌60克毛尖马克罐（绿）</a></div>
+                                <div class="img center"><a href="Product_Detailed.html"><img src="${good.photo}" /></a></div>
+                                <div class="title_name"><a href="Product_Detailed.html">${good.gname}</a></div>
                                 <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
+                                    <span class="Current_price">商城价<em>￥${good.size.price}</em></span>
+                                    <span class="Original_Price">原价&nbsp;<em>￥${good.size.marketPrice}</em></span>
                                 </div>
                                 <div class="p_comment">已有<a href="#">2345</a>人评论</div>
                             </div>
                         </li>
-                        <li class="s_Products">
-                            <div class="Products_list_name">
-                                <div class="img center"><a href="Product_Detailed.html"><img src="Products/3.jpg" /></a></div>
-                                <div class="title_name"><a href="Product_Detailed.html">52°五岭洞藏黑金刚1500ml(双瓶装)</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                                <div class="p_comment">已有<a href="#">2345</a>人评论</div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Products_list_name">
-                                <div class="img center"><a href="#"><img src="Products/1.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                                <div class="p_comment">已有<a href="#">2345</a>人评论</div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Products_list_name">
-                                <div class="img center"><a href="#"><img src="Products/3.jpg" /></a></div>
-                                <div class="title_name"><a href="#">桐木关正山小种 特级XZ1390-250g 天地盖硬盒 本朴</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                                <div class="p_comment">已有<a href="#">2345</a>人评论</div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Products_list_name">
-                                <div class="img center"><a href="#"><img src="Products/3.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                                <div class="p_comment">已有<a href="#">2345</a>人评论</div>
-                            </div>
-                        </li>
+                            </c:if>
+                        </c:forEach>
+                    </ul>
+                    <ul>
+                        <c:forEach items="${goods}" var="good" varStatus="hx">
+                            <c:if test="${hx.index>=10 and hx.index<=14}">
+                                <li class="s_Products">
+                                    <div class="Products_list_name">
+                                        <div class="img center"><a href="Product_Detailed.html"><img src="${good.photo}" /></a></div>
+                                        <div class="title_name"><a href="Product_Detailed.html">${good.gname}</a></div>
+                                        <div class="s_Price clearfix">
+                                            <span class="Current_price">商城价<em>￥${good.size.price}</em></span>
+                                            <span class="Original_Price">原价&nbsp;<em>￥${good.size.marketPrice}</em></span>
+                                        </div>
+                                        <div class="p_comment">已有<a href="#">2345</a>人评论</div>
+                                    </div>
 
-                    </ul>
-                    <ul>
-                        <li class="s_Products">
-                            <em class="icon_new"></em>
-                            <div class="Products_list_name">
-                                <div class="img center"><a href="#"><img src="Products/2.jpg" /></a></div>
-                                <div class="title_name"><a href="#">【2015年新茶】巴山雀舌60克毛尖马克罐（绿）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                                <div class="p_comment">已有<a href="#">2345</a>人评论</div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <em class="icon_new"></em>
-                            <div class="Products_list_name">
-                                <div class="img center"><a href="#"><img src="Products/3.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°五岭洞藏黑金刚1500ml(双瓶装)</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                                <div class="p_comment">已有<a href="#">2345</a>人评论</div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <em class="icon_new"></em>
-                            <div class="Products_list_name">
-                                <div class="img center"><a href="#"><img src="Products/1.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                                <div class="p_comment">已有<a href="#">2345</a>人评论</div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <em class="icon_new"></em>
-                            <div class="Products_list_name">
-                                <div class="img center"><a href="#"><img src="Products/3.jpg" /></a></div>
-                                <div class="title_name"><a href="#">桐木关正山小种 特级XZ1390-250g 天地盖硬盒 本朴</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                                <div class="p_comment">已有<a href="#">2345</a>人评论</div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <em class="icon_new"></em>
-                            <div class="Products_list_name">
-                                <div class="img center"><a href="#"><img src="Products/3.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                                <div class="p_comment">已有<a href="#">2345</a>人评论</div>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li class="s_Products">
-                            <div class="Products_list_name">
-                                <div class="img center"><a href="#"><img src="Products/2.jpg" /></a></div>
-                                <div class="title_name"><a href="#">【2015年新茶】巴山雀舌60克毛尖马克罐（绿）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                                <div class="time">剩余时间：<i>5</i>时<i>30</i>分<i>34</i>秒</div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Products_list_name">
-                                <div class="img center"><a href="#"><img src="Products/3.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°五岭洞藏黑金刚1500ml(双瓶装)</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                                <div class="time">剩余时间：<i>5</i>时<i>30</i>分<i>34</i>秒</div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Products_list_name">
-                                <div class="img center"><a href="#"><img src="Products/1.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                                <div class="time">剩余时间：<i>5</i>时<i>30</i>分<i>34</i>秒</div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Products_list_name">
-                                <div class="img center"><a href="#"><img src="Products/3.jpg" /></a></div>
-                                <div class="title_name"><a href="#">桐木关正山小种 特级XZ1390-250g 天地盖硬盒 本朴</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                                <div class="time">剩余时间：<i>5</i>时<i>30</i>分<i>34</i>秒</div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Products_list_name">
-                                <div class="img center"><a href="#"><img src="Products/3.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                                <div class="time">剩余时间：<i>5</i>时<i>30</i>分<i>34</i>秒</div>
-                            </div>
-                        </li>
+                                </li>
+                            </c:if>
+                        </c:forEach>
                     </ul>
                 </div>
             </div>
@@ -363,86 +238,20 @@
                 </div>
                 <div class="Area_p_list">
                     <ul>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="Product_Detailed.html"><img src="Products/11.jpg" /></a></div>
-                                <div class="title_name"><a href="Product_Detailed.html">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
+                    <c:forEach items="${goods}" var="good" varStatus="hx">
+                        <c:if test="${hx.index<=7}">
+                            <li class="s_Products">
+                                <div class="Products_list_name">
+                                    <div class="img center"><a href="Product_Detailed.html"><img src="${good.photo}" /></a></div>
+                                    <div class="title_name"><a href="Product_Detailed.html">${good.gname}</a></div>
+                                    <div class="s_Price clearfix">
+                                        <span class="Current_price">商城价<em>￥${good.size.price}</em></span>
+                                        <span class="Original_Price">&nbsp;原价<em>￥${good.size.marketPrice}</em></span>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="Product_Detailed.html"><img src="Products/10.jpg" /></a></div>
-                                <div class="title_name"><a href="Product_Detailed.html">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/12.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/3.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/1.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/3.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/2.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/1.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
+                            </li>
+                        </c:if>
+                    </c:forEach>
                     </ul>
                 </div>
             </div>
@@ -463,87 +272,21 @@
                 </div>
                 <div class="Area_p_list">
                     <ul>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/1.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/2.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/4.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/5.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/6.jpg" /></a></div>
-                                <div class="title_name"><a href="#">【2015新茶上市】桐木关金骏眉（小菜芽）JM3300-60g 小抽屉盒 雅朴</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/7.jpg" /></a></div>
-                                <div class="title_name"><a href="#">【2015新茶上市】桐木关金骏眉（小菜芽）JM3300-60g 小抽屉盒 雅朴</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/9.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/8.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                        <c:forEach items="${goods}" var="good" varStatus="hx">
+                            <c:if test="${hx.index>=8 and hx.index<=15}">
+                                <li class="s_Products">
+                                    <div class="Products_list_name">
+                                        <div class="img center"><a href="Product_Detailed.html"><img src="${good.photo}" /></a></div>
+                                        <div class="title_name"><a href="Product_Detailed.html">${good.gname}</a></div>
+                                        <div class="s_Price clearfix">
+                                            <span class="Current_price">商城价<em>￥${good.size.price}</em></span>
+                                            <span class="Original_Price">&nbsp;原价<em>￥${good.size.marketPrice}</em></span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </c:if>
+                        </c:forEach>
+                     </ul>
                 </div>
             </div>
         </div>
@@ -563,87 +306,21 @@
                 </div>
                 <div class="Area_p_list">
                     <ul>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/18.jpg" /></a></div>
-                                <div class="title_name"><a href="#">雅集整套花茶壶茶杯保温套装耐热玻璃泡茶壶花草茶茶具带品茶杯</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/13.jpg" /></a></div>
-                                <div class="title_name"><a href="#">闽毓 茶具 整套实木茶盘套装电磁炉套装 冰裂功夫茶具套装四合一</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/14.jpg" /></a></div>
-                                <div class="title_name"><a href="#">闽毓 茶具 整套实木茶盘套装电磁炉套装 冰裂功夫茶具套装四合一</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/15.jpg" /></a></div>
-                                <div class="title_name"><a href="#">闽毓 茶具 整套实木茶盘套装电磁炉套装 冰裂功夫茶具套装四合一</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/16.jpg" /></a></div>
-                                <div class="title_name"><a href="#">宏中 宜兴紫砂茶叶罐 七饼普洱醒茶罐手工茶罐茶缸桶大号精品</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/17.jpg" /></a></div>
-                                <div class="title_name"><a href="#">踞虎堂正品铁壶朱雀铜雀铜盖日本南部铸铁壶生铁壶茶具茶壶</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/19.jpg" /></a></div>
-                                <div class="title_name"><a href="#">东茶西壶 雪花茶具陶瓷茶壶茶杯整套功</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="s_Products">
-                            <div class="Area_product_c">
-                                <div class="img center"><a href="#"><img src="Products/20.jpg" /></a></div>
-                                <div class="title_name"><a href="#">52°泸州老窖封藏老酒（窖藏）</a></div>
-                                <div class="s_Price clearfix">
-                                    <span class="Current_price">商城价<em>￥39.00</em></span>
-                                    <span class="Original_Price">原价&nbsp;<em>76.00</em></span>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                        <c:forEach items="${goods}" var="good" varStatus="hx">
+                                <c:if test="${hx.index>=16 and hx.index<=23}">
+                                    <li class="s_Products">
+                                        <div class="Products_list_name">
+                                            <div class="img center"><a href="Product_Detailed.html"><img src="${good.photo}" /></a></div>
+                                            <div class="title_name"><a href="Product_Detailed.html">${good.gname}</a></div>
+                                            <div class="s_Price clearfix">
+                                                <span class="Current_price">商城价<em>￥${good.size.price}</em></span>
+                                                <span class="Original_Price">&nbsp;原价<em>￥${good.size.marketPrice}</em></span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </c:if>
+                        </c:forEach>
+                     </ul>
                 </div>
             </div>
         </div>

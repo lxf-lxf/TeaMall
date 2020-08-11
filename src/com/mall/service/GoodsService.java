@@ -11,5 +11,8 @@ import java.util.List;
  */
 @Service
 public interface GoodsService {
+    //查询所有的商品
     public List<Goods> selAllGoods();
+    //根据商品的id，查找商品。
+    public Goods  selGoodById(int gid);
 }
