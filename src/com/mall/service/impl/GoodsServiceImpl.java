@@ -17,8 +17,13 @@ public class GoodsServiceImpl implements GoodsService {
     @Autowired
     private GoodsMapper goodsMapper;
     @Override
-    public List<Goods> selAllGoods() {
+    public List<Goods> selAllGoods() {  //查询
         List<Goods> goods = goodsMapper.selAllGods();
         return goods;
+    }
+
+    @Override
+    public Goods selGoodById(int gid) {
+        return null;
     }
 }

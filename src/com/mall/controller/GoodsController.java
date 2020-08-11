@@ -23,9 +23,10 @@ public class GoodsController {
     @ResponseBody
     public String SelAllGoods(Model model){
         List<Goods> goods = goodsService.selAllGoods();
-        model.addAttribute("goods",goods);
-        System.out.println(goods.get(0).toString());
         if(goods!=null){
+            if(goods!=null){
+                model.addAttribute("goods",goods);
+            }
             return "/index";
         }else{
             return "查询商品失败";
