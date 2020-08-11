@@ -6,10 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e45cd0a-6b09-432f-9c6d-3fa1a757877a" name="Default Changelist" comment="my_version_1.0&#10;my_version_1.1&#10;my_version_1.2&#10;my_注册&amp;登录">
-      <change afterPath="$PROJECT_DIR$/src/com/mall/filter/aaa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2e45cd0a-6b09-432f-9c6d-3fa1a757877a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +77,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1ftD6aPdEMlCQnkJOHsOQiVdm1I" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -188,7 +187,6 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.16114059" />
           <treeState>
             <expand>
               <path>
@@ -199,15 +197,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:MySQL for 5.1 - lxf_NewPro@linxifan.icu" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:MySQL for 5.1 - lxf_NewPro@linxifan.icu" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@912c5f6" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -280,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597127517892</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="my_version_1.0&#10;my_version_1.1&#10;my_version_1.2&#10;my_注册&amp;登录&#10;fgf_首页商品展示">
+      <created>1597128500095</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597128500095</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +335,8 @@
     <MESSAGE value="my_version_1.0&#10;my_version_1.1" />
     <MESSAGE value="my_version_1.0&#10;my_version_1.1&#10;my_version_1.2" />
     <MESSAGE value="my_version_1.0&#10;my_version_1.1&#10;my_version_1.2&#10;my_注册&amp;登录" />
-    <option name="LAST_COMMIT_MESSAGE" value="my_version_1.0&#10;my_version_1.1&#10;my_version_1.2&#10;my_注册&amp;登录" />
+    <MESSAGE value="my_version_1.0&#10;my_version_1.1&#10;my_version_1.2&#10;my_注册&amp;登录&#10;fgf_首页商品展示" />
+    <option name="LAST_COMMIT_MESSAGE" value="my_version_1.0&#10;my_version_1.1&#10;my_version_1.2&#10;my_注册&amp;登录&#10;fgf_首页商品展示" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597111428332">
@@ -354,10 +351,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1597116514952" />
-    <state x="385" y="0" key="CommitChangelistDialog2" timestamp="1597129033627">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="342" y="0" key="CommitChangelistDialog2" timestamp="1597128495868">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="385" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597129033627" />
+    <state x="342" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1597128495868" />
+    <state x="385" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597128113342" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1597127604689">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -454,14 +452,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597127374227" />
-    <state x="564" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597129035483">
+    <state x="564" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597127604651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="564" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1597129035483" />
-    <state x="423" y="278" key="git4idea.ui.GitUnstashDialog" timestamp="1597129047716">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="423" y="278" key="git4idea.ui.GitUnstashDialog/0.0.1536.824@0.0.1536.824" timestamp="1597129047716" />
+    <state x="564" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1597127604651" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1597062579611">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
