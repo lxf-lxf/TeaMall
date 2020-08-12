@@ -10,9 +10,38 @@ package com.mall.entity;
 //   number               int,
 //   primary key (kid)
 public class Stock {
-    private int kid;
     private int sid;
-    private int gid;
     private int number;
 
+    public Stock() {
+    }
+
+    public Stock(int sid, int number) {
+        this.sid = sid;
+        this.number = number;
+    }
+
+    public int getSid() {
+        return sid;
+    }
+
+    public void setSid(int sid) {
+        this.sid = sid;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    @Override
+    public String toString() {
+        return "Stock{" +
+                "sid=" + sid +
+                ", number=" + number +
+                '}';
+    }
 }

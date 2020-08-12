@@ -10,6 +10,11 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface StockMapper {
-    @Select(value = "select * from Stock where kid=#{param1}")
+    /**
+     *
+     * @param kid 库存编号
+     * @return 返回查询到stock对象
+     */
+    @Select(value = "select * from stock where kid=#{param1}")
     public Stock findStock(int kid);
 }

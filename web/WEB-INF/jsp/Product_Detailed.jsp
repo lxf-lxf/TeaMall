@@ -145,10 +145,10 @@
                             <div class="scrollbutton smallImgUp disabled">&lt;</div>
                             <div id="imageMenu">
                                 <ul>
-                                    <li><img src="small/01.jpg" width="68" height="68" alt="洋妞"/></li>
-                                    <li><img src="small/02.jpg" width="68" height="68" alt="洋妞"/></li>
-                                    <li><img src="small/03.jpg" width="68" height="68" alt="洋妞"/></li>
-                                    <li><img src="small/04.jpg" width="68" height="68" alt="洋妞"/></li>
+                                    <li><img src="${Good.photo}" width="68" height="68" alt="洋妞"/></li>
+                                    <li><img src="${Good.photo}" width="68" height="68" alt="洋妞"/></li>
+                                    <li><img src="${Good.photo}" width="68" height="68" alt="洋妞"/></li>
+                                    <li><img src="${Good.photo}" width="68" height="68" alt="洋妞"/></li>
                                     <li><img src="small/05.jpg" width="68" height="68" alt="洋妞"/></li>
                                     <li><img src="small/06.jpg" width="68" height="68" alt="洋妞"/></li>
                                     <li><img src="small/07.jpg" width="68" height="68" alt="洋妞"/></li>
@@ -158,7 +158,6 @@
                         </div><!--smallImg end-->
                         <div id="bigView" style="display:none;"><div><img width="800" height="800" alt="" src="" /></div></div>
                     </div>
-
                 </div>
                 <div class="Sharing">
                     <div class="bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1441079683326"><a href="#" class="bds_more" data-cmd="more">分享到：</a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
@@ -172,15 +171,12 @@
             <!--信息样式-->
             <div class="textInfo">
                 <form action="javascript:addToCart(97)" name="ECS_FORMBUY" id="ECS_FORMBUY">
-                    <c:forEach items="${goods}" var="good">
-                        ${good.gid},${good.gname}
-                    </c:forEach>
-                    <div class="title"><h1></h1><p>进口饼干糕点 西式糕点 休闲轻松</p></div>
+                    <div class="title"><h1></h1><p>${Good.gname}</p></div>
                     <div class="mod_detailInfo_priceSales">
                         <div class="margins">
-                            <div class="Price clearfix text_name"><label>价格</label><span class="Prices"><h4>¥10.9</h4> <b>34.00</b></span></div>
-                            <div class="Activity clearfix text_name"><label>重量</label><span class="weight">345克</span></div>
-                            <div class="Size clearfix text_name"><label>规格</label><a href="#">袋装</a><a href="#">礼盒装</a><a href="#">铁盒</a></div>
+                            <div class="Price clearfix text_name"><label>价格</label><span class="Prices"><h4>¥${Good.size.price}</h4> <b>${Good.size.marketPrice}</b></span></div>
+                            <div class="Activity clearfix text_name"><label>重量</label><span class="weight">${Good.size.weight}</span></div>
+                            <div class="Size clearfix text_name"><label>规格</label><a href="#">${Good.size.specs}</a></div>
                             <div class="Sales_volume">
                                 <div class="Sales_info"><h5>销量</h5><b>2345</b></div>
                             </div>
@@ -199,7 +195,7 @@
                                     <a class="btn-add" href="javascript:;" onclick="setAmount.add('#buy-num')">+</a>
                                     <input class="text" id="buy-num" value="1" onkeyup="setAmount.modify('#buy-num');">
                                 </div>
-                                <div class="P_Quantity">剩余：50000件</div>
+                                <div class="P_Quantity">剩余：${Good.size.stock.number}件</div>
                             </dd>
                             <dd>
                                 <div class="wrap_btn"> <a href="javascript:addToCart_bak(92)" class="wrap_btn1" title="加入购物车"></a>

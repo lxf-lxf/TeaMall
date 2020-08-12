@@ -11,5 +11,6 @@ import java.util.List;
  */
 @Repository
 public interface GoodsMapper {
-    public List<Goods> selAllGods();
+    //查询所有商品,也可以根据商品id进行单独查询
+    public List<Goods> selAllGods(Goods goods);
 }

@@ -18,12 +18,13 @@ public class GoodsServiceImpl implements GoodsService {
     private GoodsMapper goodsMapper;
     @Override
     public List<Goods> selAllGoods() {  //查询
-        List<Goods> goods = goodsMapper.selAllGods();
+        List<Goods> goods = goodsMapper.selAllGods(new Goods());
         return goods;
     }
 
     @Override
-    public Goods selGoodById(int gid) {
-        return null;
+    public Goods selGoodById(Goods good) {
+        List<Goods> goods = goodsMapper.selAllGods(good);
+        return goods.get(0);
     }
 }

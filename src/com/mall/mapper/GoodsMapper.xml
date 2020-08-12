@@ -5,9 +5,14 @@
 <mapper namespace="com.mall.mapper.GoodsMapper">
     <resultMap id="m" type="com.mall.entity.Goods">
         <id property="gid" column="gid"></id>
-        <association javaType="com.mall.entity.Size" property="size"  select="com.mall.mapper.SizeMapper.findAllSize" column="sid"></association>
+        <association javaType="com.mall.entity.Size" property="size"  select="com.mall.mapper.SizeMapper.findsizeByid" column="sid"></association>
     </resultMap>
     <select id="selAllGods" resultMap="m">
-        select * from goods;
+        select * from goods
+        <where>
+            <if test="gid!=0">
+                gid = #{gid}
+            </if>
+        </where>
     </select>
 </mapper>
