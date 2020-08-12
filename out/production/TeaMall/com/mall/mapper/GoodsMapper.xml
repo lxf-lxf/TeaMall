@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mall.mapper.GoodsMapper">
+    <resultMap id="m" type="com.mall.entity.Goods">
+        <id property="gid" column="gid"></id>
+        <association javaType="com.mall.entity.Size" property="size"  select="com.mall.mapper.SizeMapper.findsizeByid" column="sid"></association>
+    </resultMap>
+    <select id="selAllGods" resultMap="m">
+        select * from goods
+        <where>
+            <if test="gid!=0">
+                gid = #{gid}
+            </if>
+        </where>
+    </select>
+</mapper>
