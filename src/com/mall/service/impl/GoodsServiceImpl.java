@@ -23,7 +23,7 @@ public class GoodsServiceImpl implements GoodsService {
     }
 
     @Override
-    public Goods selGoodById(Goods good) {
+    public Goods selGoodById(Goods good) {//根据gid查询
         List<Goods> goods = goodsMapper.selAllGods(good);
         return goods.get(0);
     }

@@ -1,5 +1,7 @@
 package com.mall.entity;
 
+import java.sql.Date;
+
 /**
  * @Author 锋
  * @Create in 15:57 2020/8/10
@@ -19,11 +21,14 @@ public class Size {
     private double price;
     private int kid;
     private Stock stock;
+    private String pcode;
+    private String pstand;
+    private Date pdate;
+    private String brand;
+    private String level;
+    private String paddress;
 
-    public Size() {
-    }
-
-    public Size(int sid, String specs, String weight, double marketPrice, double price, int kid, Stock stock) {
+    public Size(int sid, String specs, String weight, double marketPrice, double price, int kid, Stock stock, String pcode, String pstand, Date pdate, String brand, String level, String paddress, String baozi) {
         this.sid = sid;
         this.specs = specs;
         this.weight = weight;
@@ -31,7 +36,20 @@ public class Size {
         this.price = price;
         this.kid = kid;
         this.stock = stock;
+        this.pcode = pcode;
+        this.pstand = pstand;
+        this.pdate = pdate;
+        this.brand = brand;
+        this.level = level;
+        this.paddress = paddress;
+        this.baozi = baozi;
     }
+
+    private String baozi;
+    public  Size() {
+    }
+
+
 
     public int getSid() {
         return sid;
@@ -89,6 +107,62 @@ public class Size {
         this.stock = stock;
     }
 
+    public String getPcode() {
+        return pcode;
+    }
+
+    public void setPcode(String pcode) {
+        this.pcode = pcode;
+    }
+
+    public String getPstand() {
+        return pstand;
+    }
+
+    public void setPstand(String pstand) {
+        this.pstand = pstand;
+    }
+
+    public Date getPdate() {
+        return pdate;
+    }
+
+    public void setPdate(Date pdate) {
+        this.pdate = pdate;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getLevel() {
+        return level;
+    }
+
+    public void setLevel(String level) {
+        this.level = level;
+    }
+
+    public String getPaddress() {
+        return paddress;
+    }
+
+    public String getBaozi() {
+        return baozi;
+    }
+
+    public void setBaozi(String baozi) {
+        this.baozi = baozi;
+    }
+
+    public void setPaddress(String paddress) {
+        this.paddress = paddress;
+    }
+
     @Override
     public String toString() {
         return "Size{" +
@@ -99,6 +173,12 @@ public class Size {
                 ", price=" + price +
                 ", kid=" + kid +
                 ", stock=" + stock +
+                ", pcode='" + pcode + '\'' +
+                ", pstand='" + pstand + '\'' +
+                ", pdate=" + pdate +
+                ", brand='" + brand + '\'' +
+                ", level='" + level + '\'' +
+                ", paddress='" + paddress + '\'' +
                 '}';
     }
 }
