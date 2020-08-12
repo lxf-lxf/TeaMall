@@ -8,6 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2e45cd0a-6b09-432f-9c6d-3fa1a757877a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Product_List.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/Product_Detailed.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/Product_Detailed.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -201,11 +203,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -229,6 +226,7 @@
       <workItem from="1597113268577" duration="9752000" />
       <workItem from="1597193960321" duration="4241000" />
       <workItem from="1597198310706" duration="3561000" />
+      <workItem from="1597202202892" duration="819000" />
     </task>
     <task id="LOCAL-00001" summary="my_version_1.0">
       <created>1597028895776</created>
@@ -349,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597202080143</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fgf_商品参数添加1.3">
+      <created>1597202315153</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1597202315154</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,10 +436,10 @@
     </state>
     <state x="510" y="115" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1597201025807" />
     <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1597116514952" />
-    <state x="342" y="0" key="CommitChangelistDialog2" timestamp="1597202136392">
+    <state x="342" y="0" key="CommitChangelistDialog2" timestamp="1597202312645">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="342" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1597202136392" />
+    <state x="342" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1597202312645" />
     <state x="385" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597128113342" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1597127604689">
       <screen x="0" y="0" width="1536" height="824" />
@@ -549,10 +554,10 @@
     </state>
     <state x="242" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597202159305" />
     <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597028419906" />
-    <state x="321" y="132" key="Vcs.Push.Dialog.v2" timestamp="1597198392663">
+    <state x="321" y="132" key="Vcs.Push.Dialog.v2" timestamp="1597202320461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="132" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597198392663" />
+    <state x="321" y="132" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597202320461" />
     <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597127374227" />
     <state x="502" y="292" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597136613795">
       <screen x="0" y="0" width="1366" height="728" />

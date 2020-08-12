@@ -266,11 +266,11 @@
                                 <li><label>产品名称</label><span>${Good.gname}</span></li>
                                 <li><label>净含量</label><span>${Good.size.weight}</span></li>
                                 <li><label>包装</label><span>${Good.size.specs}</span></li>
-                                <li><label>品牌</label><span>${good.size.brand}</span></li>
+                                <li><label>品牌</label><span>${Good.size.brand}</span></li>
                                 <li><label>食品工艺</label><span>炒青绿茶</span></li>
-                                <li><label>级别</label><span>${good.size.level}</span></li>
-                                <li><label>产地</label><span>${good.size.paddress}</span></li>
-                                <li><label>价格</label><span>${good.size.price}</span></li>
+                                <li><label>级别</label><span>${Good.size.level}</span></li>
+                                <li><label>产地</label><span>${Good.size.paddress}</span></li>
+                                <li><label>价格</label><span>${Good.size.price}</span></li>
                             </ul>
                         </div>
                         <div id="shangpjs">
