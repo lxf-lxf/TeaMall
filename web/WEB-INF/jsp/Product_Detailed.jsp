@@ -259,18 +259,18 @@
                         <div id="shangpsx">
                             <div class="title"><img src="images/title_name_03.png" /></div>
                             <ul class="shangpsx_info">
-                                <li><label>生产许可证编号</label><span>QS3301 1401 0973</span></li>
-                                <li><label>产品标准号</label><span>GB/T 18650</span></li>
-                                <li><label>生产日期</label><span>2015年4月</span></li>
-                                <li><label>有效期</label><span>三年</span></li>
-                                <li><label>产品名称</label><span>艺福堂茶叶 绿茶 龙井茶 西湖龙井 雨前靠谱茶</span></li>
-                                <li><label>净含量</label><span>250g</span></li>
-                                <li><label>包装</label><span>罐装</span></li>
-                                <li><label>品牌</label><span>艺福堂</span></li>
+                                <li><label>生产许可证编号</label><span>${Good.size.pcode}</span></li>
+                                <li><label>产品标准号</label><span>${Good.size.pstand}</span></li>
+                                <li><label>生产日期</label><span>${Good.size.pdate}</span></li>
+                                <li><label>有效期</label><span>${Good.size.baozi}</span></li>
+                                <li><label>产品名称</label><span>${Good.gname}</span></li>
+                                <li><label>净含量</label><span>${Good.size.weight}</span></li>
+                                <li><label>包装</label><span>${Good.size.specs}</span></li>
+                                <li><label>品牌</label><span>${good.size.brand}</span></li>
                                 <li><label>食品工艺</label><span>炒青绿茶</span></li>
-                                <li><label>级别</label><span>三级</span></li>
-                                <li><label>产地</label><span>中国大陆杭州</span></li>
-                                <li><label>价格</label><span>100-199元</span></li>
+                                <li><label>级别</label><span>${good.size.level}</span></li>
+                                <li><label>产地</label><span>${good.size.paddress}</span></li>
+                                <li><label>价格</label><span>${good.size.price}</span></li>
                             </ul>
                         </div>
                         <div id="shangpjs">

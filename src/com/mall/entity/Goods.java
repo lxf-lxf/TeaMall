@@ -11,16 +11,18 @@ public class Goods {
     private String descr;
     private int sid;
     private Size size;
+    private String type;
     public Goods() {
     }
 
-    public Goods(int gid, String gname, String photo, String descr, int sid, Size size) {
+    public Goods(int gid, String gname, String photo, String descr, int sid, Size size, String type) {
         this.gid = gid;
         this.gname = gname;
         this.photo = photo;
         this.descr = descr;
         this.sid = sid;
         this.size = size;
+        this.type = type;
     }
 
     public int getGid() {
@@ -71,6 +73,14 @@ public class Goods {
         this.size = size;
     }
 
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
     @Override
     public String toString() {
         return "Goods{" +
@@ -80,6 +90,7 @@ public class Goods {
                 ", descr='" + descr + '\'' +
                 ", sid=" + sid +
                 ", size=" + size +
+                ", type='" + type + '\'' +
                 '}';
     }
 }
