@@ -27,4 +27,7 @@ public interface UserMapper {
     //查询电话号码
     @Select("select * from user_ where phone = #{param1}")
     User selPhone(String phone);
+
+    @Select("select * from user_ where uid = #{param1}")
+    User selById(int uid);
 }

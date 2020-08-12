@@ -14,10 +14,19 @@ public class User implements Serializable {
     private String phone;//电话号码
     private String email;//邮箱
     private String password;//密码
+    private int mid;
 
     private Member member; //会员表对象
 
     public User() {
+    }
+
+    public int getMid() {
+        return mid;
+    }
+
+    public void setMid(int mid) {
+        this.mid = mid;
     }
 
     public Member getMember() {

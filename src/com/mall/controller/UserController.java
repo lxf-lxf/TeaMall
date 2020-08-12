@@ -29,11 +29,10 @@ public class UserController {
     //用户登录
     @RequestMapping("/login")
     public String login(String uname, String password, HttpSession session, Model model){
-        System.out.println(uname+"---"+password);
         User user = userService.login(uname, password);
         List<Goods> goods = goodsService.selAllGoods();
         System.out.println(goods.get(0).toString());
-        if(user != null && goods!=null){
+        if(user != null && goods != null){
             model.addAttribute("goods",goods);
             session.setAttribute("user",user);
             return "/index";
@@ -95,7 +94,7 @@ public class UserController {
         int n = userService.register(user);
         if(n == 1) {
             model.addAttribute("user",u);
-            return "redirect:/index";
+            return "/index";
         }else{
             return "/register";
         }
