@@ -2,7 +2,6 @@ package com.mall.controller;
 
 import com.mall.entity.Goods;
 import com.mall.entity.User;
-import com.mall.mapper.GoodsMapper;
 import com.mall.service.GoodsService;
 import com.mall.service.UserService;
 import com.mall.util.PhoneNumFactory;
@@ -33,6 +32,7 @@ public class UserController {
         System.out.println(uname+"---"+password);
         User user = userService.login(uname, password);
         List<Goods> goods = goodsService.selAllGoods();
+        System.out.println(goods.get(0).toString());
         if(user != null && goods!=null){
             model.addAttribute("goods",goods);
             session.setAttribute("user",user);

@@ -171,12 +171,13 @@
                             <c:if test="${hx.index<=4}">
                                 <li class="s_Products">
                                     <div class="Products_list_name">
-                                        <div class="img center"><a href="Product_Detailed.html"><img src="${good.photo}" /></a></div>
-                                        <div class="title_name"><a href="Product_Detailed.html">${good.gname}</a></div>
+                                        <div class="img center"><a href="goods/SelGoodById/${good.gid}"><img src="${good.photo}" /></a></div>
+                                        <div class="title_name"><a href="goods/SelGoodById/${good.gid}">${good.gname}</a></div>
                                         <div class="s_Price clearfix">
                                             <span class="Current_price">商城价<em>￥${good.size.price}</em></span>
                                             <span class="Original_Price">原价&nbsp;<em>￥${good.size.marketPrice}</em></span>
                                         </div>
+                                        <h4>${good.size.stock.number}</h4>
                                         <div class="p_comment">已有<a href="#">2345</a>人评论</div>
                                     </div>
                                 </li>
@@ -188,8 +189,8 @@
                             <c:if test="${hx.index>=5 and hx.index<=9}">
                         <li class="s_Products">
                             <div class="Products_list_name">
-                                <div class="img center"><a href="Product_Detailed.html"><img src="${good.photo}" /></a></div>
-                                <div class="title_name"><a href="Product_Detailed.html">${good.gname}</a></div>
+                                <div class="img center"><a href="goods/SelGoodById/${good.gid}"><img src="${good.photo}" /></a></div>
+                                <div class="title_name"><a href="goods/SelGoodById/${good.gid}">${good.gname}</a></div>
                                 <div class="s_Price clearfix">
                                     <span class="Current_price">商城价<em>￥${good.size.price}</em></span>
                                     <span class="Original_Price">原价&nbsp;<em>￥${good.size.marketPrice}</em></span>
@@ -205,8 +206,8 @@
                             <c:if test="${hx.index>=10 and hx.index<=14}">
                                 <li class="s_Products">
                                     <div class="Products_list_name">
-                                        <div class="img center"><a href="Product_Detailed.html"><img src="${good.photo}" /></a></div>
-                                        <div class="title_name"><a href="Product_Detailed.html">${good.gname}</a></div>
+                                        <div class="img center"><a href="/goods/SelGoodById/${good.gid}"><img src="${good.photo}" /></a></div>
+                                        <div class="title_name"><a href="/goods/SelGoodById/${good.gid}">${good.gname}</a></div>
                                         <div class="s_Price clearfix">
                                             <span class="Current_price">商城价<em>￥${good.size.price}</em></span>
                                             <span class="Original_Price">原价&nbsp;<em>￥${good.size.marketPrice}</em></span>
@@ -242,8 +243,8 @@
                         <c:if test="${hx.index<=7}">
                             <li class="s_Products">
                                 <div class="Products_list_name">
-                                    <div class="img center"><a href="Product_Detailed.html"><img src="${good.photo}" /></a></div>
-                                    <div class="title_name"><a href="Product_Detailed.html">${good.gname}</a></div>
+                                    <div class="img center"><a href="/goods/SelGoodById/${good.gid}"><img src="${good.photo}" /></a></div>
+                                    <div class="title_name"><a href="/goods/SelGoodById/${good.gid}">${good.gname}</a></div>
                                     <div class="s_Price clearfix">
                                         <span class="Current_price">商城价<em>￥${good.size.price}</em></span>
                                         <span class="Original_Price">&nbsp;原价<em>￥${good.size.marketPrice}</em></span>
@@ -276,8 +277,8 @@
                             <c:if test="${hx.index>=8 and hx.index<=15}">
                                 <li class="s_Products">
                                     <div class="Products_list_name">
-                                        <div class="img center"><a href="Product_Detailed.html"><img src="${good.photo}" /></a></div>
-                                        <div class="title_name"><a href="Product_Detailed.html">${good.gname}</a></div>
+                                        <div class="img center"><a href="/goods/SelGoodById/${good.gid}"><img src="${good.photo}" /></a></div>
+                                        <div class="title_name"><a href="/goods/SelGoodById/${good.gid}">${good.gname}</a></div>
                                         <div class="s_Price clearfix">
                                             <span class="Current_price">商城价<em>￥${good.size.price}</em></span>
                                             <span class="Original_Price">&nbsp;原价<em>￥${good.size.marketPrice}</em></span>
@@ -310,8 +311,8 @@
                                 <c:if test="${hx.index>=16 and hx.index<=23}">
                                     <li class="s_Products">
                                         <div class="Products_list_name">
-                                            <div class="img center"><a href="Product_Detailed.html"><img src="${good.photo}" /></a></div>
-                                            <div class="title_name"><a href="Product_Detailed.html">${good.gname}</a></div>
+                                            <div class="img center"><a href="/goods/SelGoodById/${good.gid}"><img src="${good.photo}" /></a></div>
+                                            <div class="title_name"><a href="/goods/SelGoodById/${good.gid}">${good.gname}</a></div>
                                             <div class="s_Price clearfix">
                                                 <span class="Current_price">商城价<em>￥${good.size.price}</em></span>
                                                 <span class="Original_Price">&nbsp;原价<em>￥${good.size.marketPrice}</em></span>

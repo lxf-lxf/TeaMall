@@ -13,6 +13,6 @@ import java.util.List;
 public interface GoodsService {
     //查询所有的商品
     public List<Goods> selAllGoods();
-    //根据商品的id，查找商品。
-    public Goods  selGoodById(int gid);
+    //根据商品的id，查找商品。goods对象里面封装了id
+    public Goods selGoodById(Goods goods);
 }

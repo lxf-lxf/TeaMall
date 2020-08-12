@@ -9,5 +9,6 @@ import java.util.List;
  * @Create in 17:01 2020/8/10
  */
 public interface SizeService {
+    //查询所有商品的参数
     public List<Size> findAllSize();
 }

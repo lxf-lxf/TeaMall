@@ -70,4 +70,16 @@ public class Goods {
     public void setSize(Size size) {
         this.size = size;
     }
+
+    @Override
+    public String toString() {
+        return "Goods{" +
+                "gid=" + gid +
+                ", gname='" + gname + '\'' +
+                ", photo='" + photo + '\'' +
+                ", descr='" + descr + '\'' +
+                ", sid=" + sid +
+                ", size=" + size +
+                '}';
+    }
 }
