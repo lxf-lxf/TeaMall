@@ -1,6 +1,7 @@
 package com.mall.service;
 
 import com.mall.entity.Goods;
+import com.mall.util.Resultset;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,4 +16,6 @@ public interface GoodsService {
     public List<Goods> selAllGoods();
     //根据商品的id，查找商品。goods对象里面封装了id
     public Goods selGoodById(Goods goods);
+    //根据商品的类别，查找商品。goods对象里面封装了type
+    public Resultset selGoodByType(Integer pageNum, Integer pageSize, Goods goods);
 }

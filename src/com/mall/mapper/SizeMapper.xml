@@ -7,7 +7,6 @@
         <id property="sid" column="sid"></id>
         <association property="stock" javaType="com.mall.entity.Stock" select="com.mall.mapper.StockMapper.findStock" column="kid"></association>
     </resultMap>
-
     <select id="findsizeByid" resultMap="m1">
         select * from size where sid=#{param1}
     </select>

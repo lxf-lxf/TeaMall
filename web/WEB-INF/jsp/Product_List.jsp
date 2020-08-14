@@ -1,11 +1,12 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%
     String path = request.getContextPath();
     String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
 %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<base href="<%=basePath%>">
 <head>
+<base href="<%=basePath%>">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="css/css.css" rel="stylesheet" type="text/css" />
     <link href="css/common.css" rel="stylesheet" tyle="text/css" />
@@ -125,11 +126,7 @@
 </div>
 <!--内页样式-->
 <div class="Inside_pages">
-    <div class="products"> kid                  int not null auto_increment,
-        sid                  int,
-        gid                  int,
-        number               int,
-        primary key (kid)
+    <div class="products">
         <!--当前位置（面包屑）-->
         <div class="Location_link">
             <em></em><a href="#">产品中心</a>  &lt;   <a href="#">巴山雀舌</a>
@@ -187,11 +184,13 @@
             <!--产品列表样式-->
             <div class="p_list  clearfix">
                 <ul>
-                    <li class="gl-item">
+
+                    <c:forEach items="${rs.goods}" var="good">
+                        <li class="gl-item">
                         <div class="Borders">
-                            <div class="img"><a href="Product_Detailed.html"><img src="Products/p-1.webp.jpg" style="width:220px;height:220px"/></a></div>
-                            <div class="name"><a href="Product_Detailed.html">【2015年新茶】巴山雀舌60克毛尖马克罐（绿）</a></div>
-                            <div class="Price">商城价：<b>¥89</b><span>原价：<em>123</em></span></div>
+                            <div class="img"><a href="goods/SelGoodById/${good.gid}"><img src="${good.photo}" style="width:220px;height:220px"/></a></div>
+                            <div class="name"><a href="goods/SelGoodById/${good.gid}">${good.gname}</a></div>
+                            <div class="Price">商城价：<b>¥${good.size.price}</b><span>原价：<em>${good.size.marketPrice}</em></span></div>
                             <div class="Review">已有<a href="#">2345</a>评论</div>
                             <div class="p-operate">
                                 <a href="#" class="p-o-btn Collect"><em></em>收藏</a>
@@ -199,184 +198,17 @@
                             </div>
                         </div>
                     </li>
-                    <li class="gl-item">
-                        <div class="Borders">
-                            <div class="img"><a href="Product_Detailed.html"><img src="Products/p-1.webp.jpg" style="width:220px;height:220px"/></a></div>
-                            <div class="name"><a href="Product_Detailed.html">【2015年新茶】巴山雀舌60克毛尖马克罐（绿）</a></div>
-                            <div class="Price">商城价：<b>¥89</b><span>原价：<em>123</em></span></div>
-                            <div class="Review">已有<a href="#">2345</a>评论</div>
-                            <div class="p-operate">
-                                <a href="#" class="p-o-btn Collect"><em></em>收藏</a>
-                                <a href="#" class="p-o-btn shop_cart"><em></em>加入购物车</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="gl-item">
-                        <div class="Borders">
-                            <div class="img"><a href="Product_Detailed.html"><img src="Products/p-1.webp.jpg" style="width:220px;height:220px"/></a></div>
-                            <div class="name"><a href="Product_Detailed.html">【2015年新茶】巴山雀舌60克毛尖马克罐（绿）</a></div>
-                            <div class="Price">商城价：<b>¥89</b><span>原价：<em>123</em></span></div>
-                            <div class="Review">已有<a href="#">2345</a>评论</div>
-                            <div class="p-operate">
-                                <a href="#" class="p-o-btn Collect"><em></em>收藏</a>
-                                <a href="#" class="p-o-btn shop_cart"><em></em>加入购物车</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="gl-item">
-                        <div class="Borders">
-                            <div class="img"><a href="#"><img src="Products/p-1.webp.jpg" style="width:220px;height:220px"/></a></div>
-                            <div class="Price"><b>¥89</b><span>[¥49.01/500g]</span></div>
-                            <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
-                            <div class="Review">已有<a href="#">2345</a>评论</div>
-                            <div class="p-operate">
-                                <a href="#" class="p-o-btn Collect"><em></em>收藏</a>
-                                <a href="#" class="p-o-btn shop_cart"><em></em>加入购物车</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="gl-item">
-                        <div class="Borders">
-                            <div class="img"><a href="#"><img src="Products/p-1.webp.jpg" style="width:220px;height:220px"/></a></div>
-                            <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
-                            <div class="Price">商城价：<b>¥89</b><span>原价：<em>123</em></span></div>
-                            <div class="Review">已有<a href="#">2345</a>评论</div>
-                            <div class="p-operate">
-                                <a href="#" class="p-o-btn Collect"><em></em>收藏</a>
-                                <a href="#" class="p-o-btn shop_cart"><em></em>加入购物车</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="gl-item">
-                        <div class="Borders">
-                            <div class="img"><a href="#"><img src="Products/p-3.webp.jpg" style="width:220px;height:220px"/></a></div>
-                            <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
-                            <div class="Price">商城价：<b>¥89</b><span>原价：<em>123</em></span></div>
-                            <div class="Review">已有<a href="#">2345</a>评论</div>
-                            <div class="p-operate">
-                                <a href="#" class="p-o-btn Collect"><em></em>收藏</a>
-                                <a href="#" class="p-o-btn shop_cart"><em></em>加入购物车</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="gl-item">
-                        <div class="Borders">
-                            <div class="img"><a href="#"><img src="Products/p-3.webp.jpg" style="width:220px;height:220px"/></a></div>
-                            <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
-                            <div class="Price">商城价：<b>¥89</b><span>原价：<em>123</em></span></div>
-                            <div class="Review">已有<a href="#">2345</a>评论</div>
-                            <div class="p-operate">
-                                <a href="#" class="p-o-btn Collect"><em></em>收藏</a>
-                                <a href="#" class="p-o-btn shop_cart"><em></em>加入购物车</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="gl-item">
-                        <div class="Borders">
-                            <div class="img"><a href="#"><img src="Products/p-3.webp.jpg" style="width:220px;height:220px"/></a></div>
-                            <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
-                            <div class="Price">商城价：<b>¥89</b><span>原价：<em>123</em></span></div>
-                            <div class="Review">已有<a href="#">2345</a>评论</div>
-                            <div class="p-operate">
-                                <a href="#" class="p-o-btn Collect"><em></em>收藏</a>
-                                <a href="#" class="p-o-btn shop_cart"><em></em>加入购物车</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="gl-item">
-                        <div class="Borders">
-                            <div class="img"><a href="#"><img src="Products/p-3.webp.jpg" style="width:220px;height:220px"/></a></div>
-                            <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
-                            <div class="Price">商城价：<b>¥89</b><span>原价：<em>123</em></span></div>
-                            <div class="Review">已有<a href="#">2345</a>评论</div>
-                            <div class="p-operate">
-                                <a href="#" class="p-o-btn Collect"><em></em>收藏</a>
-                                <a href="#" class="p-o-btn shop_cart"><em></em>加入购物车</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="gl-item">
-                        <div class="Borders">
-                            <div class="img"><a href="#"><img src="Products/p-4.webp.jpg" style="width:220px;height:220px"/></a></div>
-                            <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
-                            <div class="Price">商城价：<b>¥89</b><span>原价：<em>123</em></span></div>
-                            <div class="Review">已有<a href="#">2345</a>评论</div>
-                            <div class="p-operate">
-                                <a href="#" class="p-o-btn Collect"><em></em>收藏</a>
-                                <a href="#" class="p-o-btn shop_cart"><em></em>加入购物车</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="gl-item">
-                        <div class="Borders">
-                            <div class="img"><a href="#"><img src="Products/p-4.webp.jpg" style="width:220px;height:220px"/></a></div>
-                            <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
-                            <div class="Price">商城价：<b>¥89</b><span>原价：<em>123</em></span></div>
-                            <div class="Review">已有<a href="#">2345</a>评论</div>
-                            <div class="p-operate">
-                                <a href="#" class="p-o-btn Collect"><em></em>收藏</a>
-                                <a href="#" class="p-o-btn shop_cart"><em></em>加入购物车</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="gl-item">
-                        <div class="Borders">
-                            <div class="img"><a href="#"><img src="Products/p-4.webp.jpg" style="width:220px;height:220px"/></a></div>
-                            <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
-                            <div class="Price">商城价：<b>¥89</b><span>原价：<em>123</em></span></div>
-                            <div class="Review">已有<a href="#">2345</a>评论</div>
-                            <div class="p-operate">
-                                <a href="#" class="p-o-btn Collect"><em></em>收藏</a>
-                                <a href="#" class="p-o-btn shop_cart"><em></em>加入购物车</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="gl-item">
-                        <div class="Borders">
-                            <div class="img"><a href="#"><img src="Products/p-4.webp.jpg" style="width:220px;height:220px"/></a></div>
-                            <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
-                            <div class="Price">商城价：<b>¥89</b><span>原价：<em>123</em></span></div>
-                            <div class="Review">已有<a href="#">2345</a>评论</div>
-                            <div class="p-operate">
-                                <a href="#" class="p-o-btn Collect"><em></em>收藏</a>
-                                <a href="#" class="p-o-btn shop_cart"><em></em>加入购物车</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="gl-item">
-                        <div class="Borders">
-                            <div class="img"><a href="#"><img src="Products/p-5.webp.jpg" style="width:220px;height:220px"/></a></div>
-                            <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
-                            <div class="Price">商城价：<b>¥89</b><span>原价：<em>123</em></span></div>
-                            <div class="Review">已有<a href="#">2345</a>评论</div>
-                            <div class="p-operate">
-                                <a href="#" class="p-o-btn Collect"><em></em>收藏</a>
-                                <a href="#" class="p-o-btn shop_cart"><em></em>加入购物车</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="gl-item">
-                        <div class="Borders">
-                            <div class="img"><a href="#"><img src="Products/p-5.webp.jpg" style="width:220px;height:220px"/></a></div>
-                            <div class="name"><a href="#">乐事 无限薯片三连装（原味+番茄+烤肉）104g*3/组</a></div>
-                            <div class="Price">商城价：<b>¥89</b><span>原价：<em>123</em></span></div>
-                            <div class="Review">已有<a href="#">2345</a>评论</div>
-                            <div class="p-operate">
-                                <a href="#" class="p-o-btn Collect"><em></em>收藏</a>
-                                <a href="#" class="p-o-btn shop_cart"><em></em>加入购物车</a>
-                            </div>
-                        </div>
-                    </li>
+                    </c:forEach>
                 </ul>
                 <div class="Paging_style">
-                    <a href="#" class="pn-prev disabled">&lt;上一页</a>
-                    <a href="#" class="on">1</a>
-                    <a href="#">2</a>
-                    <a href="#">3</a>
-                    <a href="#">4</a>
-                    <a href="#">下一页&gt;</a>
+                    <a href="goods/pageUp/${rs.goods.get(0).type}" class="pn-prev disabled">&lt;上一页</a>
+                    <c:forEach begin="0" end="${rs.total-1}" step="1" varStatus="hx">
+<%--                    <a href="#" class="on">1</a>--%>
+                        <a href="goods/SelGoodByType/${rs.goods.get(0).type}/${hx.index+1}">${hx.index+1}</a>
+                    </c:forEach>
+                    <a href="goods/pageDown/${rs.goods.get(0).type}">下一页&gt;</a>
                     <a href="#">尾页</a>
-                    <span class="p-skip"><em>共<b>232</b>页&nbsp;&nbsp;到第</em><input id="page_jump_num" value="1" onkeydown="javascript:if(event.keyCode==13){page_jump();return false;}" class="input-txt"><em>页</em><a href="javascript:page_jump();" class="btn btn-default">确定</a></span>
+                    <span class="p-skip"><em>共<b>${rs.total}</b>页&nbsp;&nbsp;到第</em><input id="page_jump_num" value="1" onkeydown="javascript:if(event.keyCode==13){page_jump();return false;}" class="input-txt"><em>页</em><a href="javascript:page_jump();" class="btn btn-default">确定</a></span>
                 </div>
             </div>
         </div>

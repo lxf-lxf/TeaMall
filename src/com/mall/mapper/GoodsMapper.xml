@@ -13,6 +13,9 @@
             <if test="gid!=0">
                 gid = #{gid}
             </if>
+            <if test="type!= null">
+                type =#{type}
+            </if>
         </where>
     </select>
 </mapper>
