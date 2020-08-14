@@ -29,7 +29,7 @@
                     <a href="login" class="red">[请登录]</a> 新用户<a href="register" class="red">[免费注册]</a>
                 </c:if>
                 <c:if test="${user!=null}">
-                    <a href="login" class="red">${user.realname}</a><a href="user/logout" class="black">退出登录</a>
+                    <a href="user_info" class="red">${user.realname}</a><a href="user/logout" class="black">退出登录</a>
                 </c:if>
                 </li>
                 <li class="hd_menu_tit" data-addclass="hd_menu_hover"><a href="#">我的订单</a></li>
