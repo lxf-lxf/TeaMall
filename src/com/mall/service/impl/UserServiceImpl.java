@@ -35,4 +35,9 @@ public class UserServiceImpl implements UserService {
     public User selPhone(String phone){
         return userMapper.selPhone(phone);
     }
+
+    @Override
+    public int updatePwd(int uid, String password) {
+        return userMapper.updatePwd(uid,password);
+    }
 }

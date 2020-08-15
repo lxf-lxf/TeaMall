@@ -31,7 +31,6 @@ public class UserController {
     public String login(String uname, String password, HttpSession session, Model model){
         User user = userService.login(uname, password);
         List<Goods> goods = goodsService.selAllGoods();
-        System.out.println(goods.get(0).toString());
         if(user != null && goods != null){
             model.addAttribute("goods",goods);
             session.setAttribute("user",user);
@@ -97,6 +96,17 @@ public class UserController {
             return "/index";
         }else{
             return "/register";
+        }
+    }
+
+    @RequestMapping(value = "/updatePwd",produces = "text/html;charset=utf-8")
+    @ResponseBody
+    public String updatePwd(String uid,String newPwd){
+        int n = userService.updatePwd(Integer.parseInt(uid), newPwd);
+        if(n == 1) {
+            return "修改成功";
+        }else {
+            return "修改失败";
         }
     }
 }

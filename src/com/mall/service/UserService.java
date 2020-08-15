@@ -15,4 +15,6 @@ public interface UserService {
     int register(User user);
 
     User selPhone(String phone) throws IOException;
+
+    int updatePwd(int uid,String password);
 }

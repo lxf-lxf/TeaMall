@@ -36,7 +36,7 @@
                     <div class="form clearfix">
                         <div class="item item-fore1">
                             <label class="login-label name-label"></label>
-                            <input name="uname" type="text" class="text" placeholder="请输入用户"/>
+                            <input name="uname" type="text" autofocus class="text" placeholder="请输入用户"/>
                         </div>
                         <div class="item item-fore2">
                             <label class="login-label pwd-label" ></label>

@@ -40,7 +40,6 @@ public class GoodsController {
         Goods g= new Goods();
         g.setGid(gid);
         Goods g2 = goodsService.selGoodById(g);
-        System.out.println(g2);
         model.addAttribute("Good",g2);
         if(g2!=null){
             return "/Product_Detailed";

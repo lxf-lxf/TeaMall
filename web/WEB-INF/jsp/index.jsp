@@ -1,3 +1,4 @@
+<%@ page import="com.mall.entity.User" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%
@@ -490,7 +491,9 @@
     <!--右侧菜单栏购物车样式-->
     <div class="fixedBox">
         <ul class="fixedBoxList">
-            <li class="fixeBoxLi user"><a href="#"> <span class="fixeBoxSpan"></span> <strong>用户</strong></a> </li>
+            <li class="fixeBoxLi user">
+                <a href="user_Password">
+                <span class="fixeBoxSpan"></span> <strong>用户</strong></a> </li>
             <li class="fixeBoxLi cart_bd" style="display:block;" id="cartboxs">
                 <p class="good_cart">0</p>
                 <span class="fixeBoxSpan"></span> <strong>购物车</strong>
@@ -499,7 +502,7 @@
             <li class="fixeBoxLi Service "> <span class="fixeBoxSpan"></span> <strong>客服</strong>
                 <div class="ServiceBox">
                     <div class="bjfffs"></div>
-                    <dl onclick="javascript:;">
+                    <dl onclick="">
                         <dt><img src="images/Service1.png"></dt>
                         <dd><strong>QQ客服1</strong>
                             <p class="p1">9:00-22:00</p>

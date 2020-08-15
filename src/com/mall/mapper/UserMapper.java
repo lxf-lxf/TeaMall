@@ -3,6 +3,7 @@ package com.mall.mapper;
 import com.mall.entity.User;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -30,4 +31,7 @@ public interface UserMapper {
 
     @Select("select * from user_ where uid = #{param1}")
     User selById(int uid);
+
+    @Update("update user_ set password = #{param2} where uid = #{param1}")
+    int updatePwd(int uid,String password);
 }
