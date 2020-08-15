@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mall.mapper.BuyCarMapper">
+    <resultMap id="car" type="com.mall.entity.BuyCar">
+        <id property="gid" column="gid"/>
+        <association property="user" select="com.mall.mapper.UserMapper.selById" column="uid" javaType="com.mall.entity.User"/>
+        <collection property="goods" select="com.mall.mapper.GoodsMapper.selAllGods" column="gid"/>
+    </resultMap>
+    <select id="selCar" resultMap="car">
+        select * from buycar b where uid = #{param1};
+    </select>
+</mapper>

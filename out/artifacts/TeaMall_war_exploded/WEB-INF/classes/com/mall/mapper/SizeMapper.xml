@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mall.mapper.SizeMapper">
+    <resultMap id="m1" type="com.mall.entity.Size">
+        <id property="sid" column="sid"></id>
+        <association property="stock" javaType="com.mall.entity.Stock" select="com.mall.mapper.StockMapper.findStock" column="kid"></association>
+    </resultMap>
+
+    <select id="findsizeByid" resultMap="m1">
+        select * from size where sid=#{param1}
+    </select>
+</mapper>
