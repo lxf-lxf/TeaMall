@@ -1,24 +1,22 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%--User: linxifan  Date: 2020/8/11  Time: 19:51--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     String path = request.getContextPath();
     String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
 %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<base href="<%=basePath%>">
+    <base href="<%=basePath%>">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="css/css.css" rel="stylesheet" type="text/css" />
-    <link href="css/common.css" rel="stylesheet" tyle="text/css" />
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery.min.1.8.2.js" type="text/javascript"></script>
     <script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/slide.js"></script>
     <script src="js/common_js.js" type="text/javascript"></script>
-    <script src="js/footer.js" type="text/javascript"></script>
-    <!--[if IE 7]>
-    <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
-    <![endif]-->
-    <title>产品列表</title>
+    <script src="js/jquery.foucs.js" type="text/javascript"></script>
+    <title>用户中心</title>
 </head>
 
 <body>
@@ -28,7 +26,13 @@
         <div class="Collection"><em></em><a href="#">收藏我们</a></div>
         <div class="hd_top_manu clearfix">
             <ul class="clearfix">
-                <li class="hd_menu_tit zhuce" data-addclass="hd_menu_hover">欢迎光临本店！<a href="#" class="red">[请登录]</a> 新用户<a href="#" class="red">[免费注册]</a></li>
+                <li class="hd_menu_tit zhuce" data-addclass="hd_menu_hover">欢迎光临本店！
+                    <c:if test="${user == null}">
+                        <a href="login" class="red">[请登录]</a> 新用户<a href="register" class="red">[免费注册]</a>
+                    </c:if>
+                    <c:if test="${user!=null}">
+                        <a href="user_info.html" class="red">${user.realname}</a><a href="user/logout" class="black">退出登录</a>
+                    </c:if>
                 <li class="hd_menu_tit" data-addclass="hd_menu_hover"><a href="#">我的订单</a></li>
                 <li class="hd_menu_tit" data-addclass="hd_menu_hover"> <a href="#">购物车(<b>0</b>)</a> </li>
                 <li class="hd_menu_tit" data-addclass="hd_menu_hover"><a href="#">联系我们</a></li>
@@ -118,105 +122,61 @@
                 </ul>
                 <div class="Shopping_style">
                     <div class="p-total">共<b>1</b>件商品　共计<strong>￥ 515.00</strong></div>
-                    <a href="shopping_cart.html" title="去购物车结算" id="btn-payforgoods" class="Shopping">去购物车结算</a>
+                    <a href="#" title="去购物车结算" id="btn-payforgoods" class="Shopping">去购物车结算</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!--内页样式-->
-<div class="Inside_pages">
-    <div class="products">
-        <!--当前位置（面包屑）-->
-        <div class="Location_link">
-            <em></em><a href="#">产品中心</a>  &lt;   <a href="#">巴山雀舌</a>
-        </div>
-        <!--筛选条件样式-->
-        <div class="products_Select marginbottom">
-            <div class="Filter">
-                <div class="Filter_list clearfix">
-                    <div class="Filter_title"><span>品牌：</span></div>
-                    <div class="Filter_Entire"><a href="#">全部</a></div>
-                    <div class="p_f_name">
-                        <a href="#" title="莱家/Loacker">莱家/Loacker </a>
-                        <a href="#" title="">丽芝士/Richeese</a>
-                        <a href="#" title="白色恋人/SHIROI KOIBITO ">白色恋人/SHIROI KOIBITO </a>
-                        <a href="#">爱时乐/Astick </a>
-                        <a href="#">利葡/LiPO </a>
-                        <a href="#">友谊牌/Tipo </a>
-                        <a href="#"> 三立/SANRITSU  </a>
-                        <a href="#"> 皇冠/Danisa </a>
-                        <a href="#">丹麦蓝罐/Kjeldsens</a>
-                    </div>
-                </div>
-                <div class="Filter_list clearfix">
-                    <div class="Filter_title"><span>包装方式：</span></div>
-                    <div class="Filter_Entire"><a href="#">全部</a></div>
-                    <div class="p_f_name">
-                        <a href="#">袋装</a><a href="#">盒装</a><a href="#">罐装</a><a href="#">礼盒装</a><a href="#">散装(称重)</a>
-                    </div>
-                </div>
-                <div class="Filter_list clearfix">
-                    <div class="Filter_title"><span>价格：</span></div>
-                    <div class="Filter_Entire"><a href="#">全部</a></div>
-                    <div class="p_f_name">
-                        <a href="#">0-50</a><a href="#">50-150</a><a href="#">150-500</a><a href="#">500-1000</a><a href="#">1000以上</a>
-                    </div>
-                </div>
+<!--用户中心-->
+<div class="user_style clearfix" id="user">
+    <div class="user_title"><em></em>用户中心</div>
+    <div class="clearfix user" >
+        <div class="user_left">
+            <div class="user_info">
+                <div class="Head_portrait"><img src="images/people.png"  width="80px" height="80px"/><!--头像区域--></div>
+                <div class="user_name">用户蜜甘草<a href="#">[个人资料]</a></div>
             </div>
+            <ul class="Section">
+                <li><a href="#"><em></em><span>我的特色馆</span></a></li>
+                <li><a href="#"><em></em><span>个人信息</span></a></li>
+                <li><a href="#"><em></em><span>修改密码</span></a></li>
+                <li><a href="#"><em></em><span>我的订单</span></a></li>
+                <li><a href="#"><em></em><span>我的评论</span></a></li>
+                <li><a href="#"><em></em><span>我的积分</span></a></li>
+                <li><a href="#"><em></em><span>我的收藏</span></a></li>
+                <li><a href="adress/selByPageNum/1"><em></em><span>收货地址管理</span></a></li>
+            </ul>
         </div>
-        <!--产品列表列表-->
-        <div class="products_list marginbottom">
-            <div class="Sorted">
-                <div class="Sorted_style">
-                    <a href="#" class="on">综合<i class="icon-angle-down"></i></a>
-                    <a href="#">销量<i class="icon-angle-down"></i></a>
-                    <a href="#">价格<i class="icon-angle-down"></i></a>
-                    <a href="#">新品<i class="icon-angle-down"></i></a>
+        <div class=" right_style r_user_style">
+            <div class="user_Borders">
+                <div class="title_name">
+                    <span class="name">个人信息设置</span>
                 </div>
-                <!--页数-->
-                <div class="s_Paging">
-                    <span> 1/12</span>
-                    <a href="#" class="on">&lt;</a>
-                    <a href="#">&gt;</a>
-                </div>
-            </div>
-            <!--产品列表样式-->
-            <div class="p_list  clearfix">
-                <ul>
-
-                    <c:forEach items="${rs.goods}" var="good">
-                        <li class="gl-item">
-                        <div class="Borders">
-                            <div class="img"><a href="goods/SelGoodById/${good.gid}"><img src="${good.photo}" style="width:220px;height:220px"/></a></div>
-                            <div class="name"><a href="goods/SelGoodById/${good.gid}">${good.gname}</a></div>
-                            <div class="Price">商城价：<b>¥${good.size.price}</b><span>原价：<em>${good.size.marketPrice}</em></span></div>
-                            <div class="Review">已有<a href="#">2345</a>评论</div>
-                            <div class="p-operate">
-                                <a href="#" class="p-o-btn Collect"><em></em>收藏</a>
-                                <a href="#" class="p-o-btn shop_cart"><em></em>加入购物车</a>
-                            </div>
+                <div class="about_user_info">
+                    <form id="form1" name="form1" method="post" action="">
+                        <div class="user_layout">
+                            <ul >
+                                <li><label class="user_title_name">用户头像：</label></li>
+                                <li><label class="user_title_name">用户昵称：</label><input name="" type="text"  class="add_text"/><i>*</i></li>
+                                <li><label class="user_title_name">真实姓名：</label><input name="" type="text"  class="add_text"/><i>*</i></li>
+                                <li><label class="user_title_name">用户性别：</label>
+                                    <label class="sex"> <input type="radio" name="RadioGroup1" value="1" id="RadioGroup1_0" /><span>男</span></label>
+                                    <label class="sex"><input type="radio" name="RadioGroup1" value="2" id="RadioGroup1_1" /><span>女</span></label>
+                                    <i>*</i>
+                                </li>
+                                <li><label class="user_title_name">手&nbsp;机&nbsp;号：</label><input name="" type="text"  class="add_text"/><i>*</i></li>
+                                <li><label class="user_title_name">邮箱地址：</label><input name="" type="text"  class="add_text"/><i>*</i></li>
+                            </ul>
+                            <div class="operating_btn"><input name="name" type="submit" value="提交"  class="submit—btn"/></div>
                         </div>
-                    </li>
-                    </c:forEach>
-                </ul>
-                <div class="Paging_style">
-                    <a href="goods/pageUp/${rs.goods.get(0).type}" class="pn-prev disabled">&lt;上一页</a>
-                    <c:forEach begin="0" end="${rs.total-1}" step="1" varStatus="hx">
-<%--                    <a href="#" class="on">1</a>--%>
-                        <a href="goods/SelGoodByType/${rs.goods.get(0).type}/${hx.index+1}">${hx.index+1}</a>
-                    </c:forEach>
-                    <a href="goods/pageDown/${rs.goods.get(0).type}">下一页&gt;</a>
-                    <a href="#">尾页</a>
-                    <span class="p-skip"><em>共<b>${rs.total}</b>页&nbsp;&nbsp;到第</em><input id="page_jump_num" value="1" onkeydown="javascript:if(event.keyCode==13){page_jump();return false;}" class="input-txt"><em>页</em><a href="javascript:page_jump();" class="btn btn-default">确定</a></span>
+                    </form>
                 </div>
             </div>
-        </div>
-        <!--分页样式-->
-        <div class="Paging marginbottom">
-
         </div>
     </div>
+</div>
+<div class="footerbox">
     <!--友情链接-->
     <div class="Links">
         <div class="link_title">友情链接</div>

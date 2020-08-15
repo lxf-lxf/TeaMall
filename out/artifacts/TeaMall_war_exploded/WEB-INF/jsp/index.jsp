@@ -1,4 +1,3 @@
-<%@ page import="com.mall.entity.User" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%
@@ -16,20 +15,6 @@
     <script src="js/common_js.js" type="text/javascript"></script>
     <script src="js/footer.js" type="text/javascript"></script>
     <title>茶叶商城首页</title>
-    <script>
-        $(function () {
-            $.post(
-                "buycar/carNum",
-                function (data) {
-                    $("#carNum").html(data);
-                }
-            );
-
-            $("#shop_cart").click(function () {
-                alert('请先登录');
-            });
-        })
-    </script>
 </head>
 
 <body>
@@ -48,16 +33,7 @@
                 </c:if>
                 </li>
                 <li class="hd_menu_tit" data-addclass="hd_menu_hover"><a href="#">我的订单</a></li>
-                <c:if test="${user == null}">
-                    <li class="hd_menu_tit" data-addclass="hd_menu_hover">
-                        <a href="javascript:void(0)" id="shop_cart">购物车(<b>0</b>)</a>
-                    </li>
-                </c:if>
-                <c:if test="${user!=null}">
-                    <li class="hd_menu_tit" data-addclass="hd_menu_hover">
-                        <a href="buycar/selGoods" id="buycar">购物车(<b id="carNum">0</b>)</a>
-                    </li>
-                </c:if>
+                <li class="hd_menu_tit" data-addclass="hd_menu_hover"> <a href="#">购物车(<b>0</b>)</a> </li>
                 <li class="hd_menu_tit" data-addclass="hd_menu_hover"><a href="#">联系我们</a></li>
                 <li class="hd_menu_tit list_name" data-addclass="hd_menu_hover"><a href="#" class="hd_menu">客户服务</a>
                     <div class="hd_menu_list">
@@ -491,9 +467,7 @@
     <!--右侧菜单栏购物车样式-->
     <div class="fixedBox">
         <ul class="fixedBoxList">
-            <li class="fixeBoxLi user">
-                <a href="user_Password">
-                <span class="fixeBoxSpan"></span> <strong>用户</strong></a> </li>
+            <li class="fixeBoxLi user"><a href="#"> <span class="fixeBoxSpan"></span> <strong>用户</strong></a> </li>
             <li class="fixeBoxLi cart_bd" style="display:block;" id="cartboxs">
                 <p class="good_cart">0</p>
                 <span class="fixeBoxSpan"></span> <strong>购物车</strong>
@@ -502,7 +476,7 @@
             <li class="fixeBoxLi Service "> <span class="fixeBoxSpan"></span> <strong>客服</strong>
                 <div class="ServiceBox">
                     <div class="bjfffs"></div>
-                    <dl onclick="">
+                    <dl onclick="javascript:;">
                         <dt><img src="images/Service1.png"></dt>
                         <dd><strong>QQ客服1</strong>
                             <p class="p1">9:00-22:00</p>
@@ -533,8 +507,6 @@
             <li class="fixeBoxLi BackToTop"> <span class="fixeBoxSpan"></span> <strong>返回顶部</strong> </li>
         </ul>
     </div>
-
-</div>
 </body>
 </html>
 
